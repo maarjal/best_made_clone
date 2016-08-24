@@ -1,1 +1,12 @@
-{{outlet}}
+<h2>New Products</h2>
+
+{{#each model as |product|}}
+  {{product.name}}
+  {{product.price}}
+  {{product.story}}
+  {{product.specs}}
+  {{product.materials}}
+  {{product.origin}}
+  <img src={{product.image1}}>
+  <img src={{product.image2}}>
+{{/each}}

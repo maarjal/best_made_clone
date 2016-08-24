@@ -1,0 +1,32 @@
+{ "products": [{
+    "category": "The Axe Shop",
+    "name": "The American Felling Axe",
+    "price": 188,
+    "story": "Designed from the ground up in New York City by Best Made Company, tested the world over. The American Felling Axe has a 4lb Dayton pattern head, perhaps one of the most iconic American axe head designs, which is drop forged in the United States from an American-made 5160 alloy steel that is hardened to a Rockwell hardness of 54-56 HRC.",
+    "specs": "Designed by Best Made,      Company, 4lb Dayton head, Best Made Axe Manual, Embroidered badge. 35”h x 7.5”w x 1.5”d",
+    "materials": "5160 American alloy steel, 35 in. fine grain Appalachian hickory, Bridle leather sheath, Hand-made wood crate*",
+    "origin": "Made in the USA",
+    "image1": "https://d16ied5lkagwqa.cloudfront.net/image/upload/t_new_pdp_m/v1469461576/AFA_45_UNFINISHED_GW_fu2w0q.jpg",
+    "image2": "https://d16ied5lkagwqa.cloudfront.net/image/upload/t_new_pdp_m/v1469461393/BMC_090415_619_GW_dkevu4.jpg"
+  }, {
+    "category": "Home",
+    "name": "The Gerstner 41D Chest for Best Made",
+    "price": 1350,
+    "story": "Made in Ohio since the 1930s, the 41D chest has remained the steady favorite of machinists, carpenters, and collectors. Our version of the 41D will be available only in a limited quantity for a very short time. This special collaboration with the 108-year-old case maker starts with kiln-dried American cherry that is plain sawn and finished with solid brass hardware.",
+    "specs": "Hand-applied stain and lacquer finish, Tongue and groove construction, Hand-fitted drawers and panels, Locking front panel, Best Made ruler scale laser-etched onto top surface, Custom embroidery inside, 20 in. x 10.5 in. x 13.5 in. New cherry tool cabinets will darken over time",
+    "materials": "Kiln-dried plain sawn American cherry, Polished brass hardware, Industrial felt lined compartments for moisture and abrasion protection",
+    "origin": "Made in the USA",
+    "image1": "https://d16ied5lkagwqa.cloudfront.net/image/upload/t_new_pdp_m/v1468869858/BMC_072315_19751_GW_jqt27c.jpg",
+    "image2": "https://d16ied5lkagwqa.cloudfront.net/image/upload/t_new_pdp_m/29_HOLMES_BMCO10_GERSTNER_04_STILLLIFE-176_oajyoa.jpg"
+  }, {
+    "category": "Apparel",
+    "name": "The Quilted Indigo Overshirt",
+    "price": 268,
+    "story": "Made in Portugal of indigo-dyed cotton, its eye-catching 3 in. x 3 in. quilted stitches are designed for comfort and will trap the warmth. Double needle stitching around the reinforced Best Made 'cuff-to-elbow' patches and triple needle stitching around the shoulders make it a durable workhorse you'll rely on year after year. Should be worn as an extra layer for a dash to the log shed or gearing up for a full day of work, this over shirt doesn't sacrifice comfort for toughness.",
+    "specs": "Rounded edges at pockets, cuffs, and collar stand, Single-needle stitches at hems, Double-needle stitches throughout placket, collar, cuffs, and pocket, Triple-needle stitch back to front on shoulders",
+    "materials": "Plainweave Fabric (100% Cotton), Poly Fill, Indigo",
+    "origin": "Made in Portugal",
+    "image1": "https://d16ied5lkagwqa.cloudfront.net/image/upload/t_new_pdp_m/v1471440533/QUILTED_OVERSHIRT_CROSS_GW_l4d0me.jpg",
+    "image2": "https://d16ied5lkagwqa.cloudfront.net/image/upload/t_new_pdp_m/QUILETED_WORKSHIRT_ot4scx.jpg"
+  }]
+}
