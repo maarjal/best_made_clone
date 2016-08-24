@@ -1,12 +1,13 @@
 <h2>New Products</h2>
-
-{{#each model as |product|}}
-  {{product.name}}
-  {{product.price}}
-  {{product.story}}
-  {{product.specs}}
-  {{product.materials}}
-  {{product.origin}}
+<div class="product">
+  {{#each model as |product|}}
+  <h3>{{product.name}}</h3>
+  <p>${{product.price}}</p>
+  <p>{{product.story}}</p>
+  <p>{{product.specs}}</p>
+  <p>{{product.materials}}</p>
+  <p>{{product.origin}}</p>
   <img src={{product.image1}}>
   <img src={{product.image2}}>
-{{/each}}
+  {{/each}}
+</div>
