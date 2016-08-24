@@ -1,6 +1,8 @@
-<h4>Name</h4>
-<h3>{{product.name}}</h3>
+<h2>{{product.name}}</h2>
 <p>${{product.price}}</p>
+<button class="btn btn-lg" {{action 'addToCart' product}}>Add to Cart</button>
+<p>Cart:{{display-cart}}</p>
+<hr>
 <p>{{product.story}}</p>
 <p>{{product.specs}}</p>
 <p>{{product.materials}}</p>
