@@ -15,6 +15,5 @@ export default Ember.Service.extend({
       total += parseInt(item.get('price'));
     }.bind(total));
     context.set('currentTotal', total);
-    console.log(total);
   }
 });
