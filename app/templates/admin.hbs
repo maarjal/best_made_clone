@@ -1,4 +1,7 @@
 <h2>ADMIN: All Products</h2>
+
+{{new-product saveProduct="saveProduct"}}
+<hr>
 <div class="product">
   {{#each model as |product|}}
     {{admin-tile product=product}}
