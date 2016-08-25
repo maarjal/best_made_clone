@@ -1,3 +1,5 @@
-<img src={{product.image1}} alt={{product.name}} />
-<h2>{{#link-to 'product' product.id}}Product {{product.name}}{{/link-to}}</h2>
- <p>${{product.price}}</p>
+<div class="all-products">
+  <img src={{product.image1}} alt={{product.name}} />
+  <h5>{{#link-to 'product' product.id}} {{product.name}}{{/link-to}}</h5>
+   <p>${{product.price}}</p>
+</div>

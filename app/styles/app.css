@@ -37,13 +37,34 @@ nav p {
   margin: 0 auto;
 }
 
+.products-wrap {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .product {
   width: 60%;
 }
 
+.all-products {
+  width: 26em;
+  height: 26em;
+  margin-top: 2%;
+}
+
+.all-products img {
+  width: 85%;
+  height: 85%;
+  display: flex;
+  justify-content: center;
+}
+
 img {
   width: 100%;
-  /*max-width: 600px;*/
+}
+
+.product-detail-img {
   margin-top: 2%;
 }
 
@@ -59,10 +80,40 @@ button {
   background: transparent;
 }
 
-footer {
-  padding-left: 4%;
-}
-
 .category-route {
   color: tomato;
+}
+
+footer {
+  margin-bottom: 2%;
+}
+
+footer span{
+  margin-left: 3%;
+}
+
+footer a {
+  color: #9e1f22;
+  margin-left: 1%;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+input, textarea {
+  display: block;
+  width: 25em;
+  border-radius: 0.2em;
+  border: 1px solid lightgrey;
+}
+
+input {
+  height: 2em;
+}
+
+textarea {
+  height: 15em;
 }
