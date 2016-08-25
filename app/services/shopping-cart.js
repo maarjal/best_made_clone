@@ -16,6 +16,7 @@ export default Ember.Service.extend({
 
   empty() {
     this.get('items').clear();
+    this.get('updateTotal')(this);
   },
 
   updateTotal: function(context) {

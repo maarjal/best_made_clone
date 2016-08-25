@@ -1,6 +1,8 @@
 {{#each shoppingCart.items as |item|}}
-  <p>{{item.name}} -- {{item.price}}</p>
-  <button {{action "remove" item}}>Remove</button>
+  <p>{{item.name}} -- ${{item.price}}</p>
+  <button class="btn btn-sm btn-warning"{{action "remove" item}}>Remove Item</button>
 {{/each}}
+<hr>
+<button class="btn btn-sm btn-danger"{{action "empty" item}}>Empty Cart</button>
 <hr>
 <p>Total: ${{shoppingCart.currentTotal}}</p>
