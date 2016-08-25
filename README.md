@@ -3,6 +3,16 @@
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
+## Independent Project Objectives
+At the end of the week, your Independent Project will be reviewed for the following objectives:
+
+The application includes at least one computed property.
+A service has been implemented successfully.
+At least one custom helper is being used to format data.
+The application works as expected.
+Previous standards have been met.
+You are able to discuss the flow of your code and the concepts behind it with an instructor using correct terminology.
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
@@ -50,4 +60,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
