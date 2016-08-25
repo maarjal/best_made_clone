@@ -9,6 +9,15 @@ export default Ember.Service.extend({
     this.get('updateTotal')(this);
   },
 
+  remove(item) {
+    this.get('items').removeObject(item);
+    this.get('updateTotal')(this);
+  },
+
+  empty() {
+    this.get('items').clear();
+  },
+
   updateTotal: function(context) {
     var total = 0;
     context.get('items').forEach(function(item) {
