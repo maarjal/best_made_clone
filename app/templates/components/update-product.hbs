@@ -1,0 +1,55 @@
+{{#if updateProduct}}
+<h1>Update Product</h1>
+<div>
+  <form>
+    <div class="form-group">
+      <label for="category">Category</label>
+      {{input value=product.category id="category"}}
+    </div>
+
+    <div class="form-group">
+      <label for="name">Name</label>
+      {{input value=product.name id="name"}}
+    </div>
+
+    <div class="form-group">
+      <label for="price">Price</label>
+      {{input value=product.price id="price"}}
+    </div>
+
+    <div class="form-group">
+      <label for="story">Story</label>
+      {{textarea value=product.story id="story"}}
+    </div>
+
+    <div class="form-group">
+      <label for="specs">Specs</label>
+      {{input value=product.specs id="specs"}}
+    </div>
+
+    <div class="form-group">
+      <label for="materials">Materials</label>
+      {{input value=product.materials id="materials"}}
+    </div>
+
+    <div class="form-group">
+      <label for="origin">Origin</label>
+      {{input value=product.origin id="origin"}}
+    </div>
+
+    <div class="form-group">
+      <label for="image1">Image One</label>
+      {{input value=product.image1 id="image1"}}
+    </div>
+
+    <div class="form-group">
+      <label for="image2">Image Two</label>
+      {{input value=product.image2 id="image2"}}
+    </div>
+
+    <button class="btn btn-success" {{action 'updateProduct' product}}>Save</button>
+  </form>
+</div>
+{{else}}
+<button class="btn btn-success" {{action 'showUpdateForm'}}>Update Product</button>
+{{/if}}

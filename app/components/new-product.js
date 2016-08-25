@@ -19,7 +19,7 @@ export default Ember.Component.extend({
         image2: this.get('image2')
       };
       this.set("addNewProduct", false);
-      this.sendAction("saveProduct", params)
+      this.sendAction("saveProduct", params);
     }
   }
 });

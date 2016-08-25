@@ -7,5 +7,8 @@ export default Ember.Component.extend({
         this.sendAction('destroyItem', product);
       }
     }
+    // updateProduct(product, params) {
+    //   this.sendAction('updateProduct', product, params);
+    // }
   }
 });
